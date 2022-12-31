@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    background-image: url(gymmifront9.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 1535px;
+
+}
+
+.mainname {
+    position: absolute;
+    color: red;
+    display: block;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.left img {
+    display: inline-block;
+    width: 80px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.thirdimg h1 {
+    margin-top: 200px;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+
+}
+
+.navbar1 {
+
+    display: inline-block;
+
+}
+
+.navbar1 li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar1 li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 30px;
+    border-radius: 20px;
+}
+
+.navbar1 li a:hover {
+    background-color: rgb(248, 5, 5);
+}
+
+.right .navbar1 li .active {
+    color: red;
+}
+
+.container {
+    padding-top: 12%;
+    padding-left: 154px;
+    padding-right: 50px;
+}
+
+.box1 {
+    margin-right: 25px;
+    border-radius: 50px;
+    background-image: url(facebook.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: auto;
+    border: 2px solid red;
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+}
+
+.box2 {
+    border-radius: 50px;
+    background-image: url(insta.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: auto;
+    border: 2px solid red;
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+}
+
+.box3 {
+    margin-left: 25px;
+    border-radius: 50px;
+    background-image: url(linkedin.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: auto;
+    border: 2px solid red;
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+}
+
+.btn {
+    width: 220px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+    margin-top: 70%;
+    margin-left: 40%;
+}
+
+.btn:hover {
+    background-color: rgb(246, 101, 101);
+    color: red;
+}
