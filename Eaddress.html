@@ -3,26 +3,72 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial -scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-UA-compatible" content="ie=edge">
-    <title>store your address</title>
-    <link rel="stylesheet" href="Eaddress.css">
+    <title>GYMMI</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+<script src="https://kit.fontawesome.com/91fc080129.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header class="navbar">
-        <div class="left">
-            <img src="GYMMILOGO.png" alt="">
+        <div class="top">
+            <div class="left">
+                <a href="index.html">
+                    <img src="GYMMILOGO.png" alt="">
+    
+                </a>
+            </div>
+            <div class="right" id="bar">
+                <div class="withbar">
+                    <button onclick="showBottomMenu()">
+                        <span class="material-symbols-outlined">
+                            menu
+                            </span>
+                    </button>
+                </div>
+                <div class="withoutbar">
+                    <ul class="navbar1">
+                        <li><a class="bar active" href="index.html" target="_self">
+                            <span class="material-symbols-outlined">
+                            home
+                            </span>Home</a></li>
+                        <li><a class="bar " href="about.html" target="_self">
+                            <span class="material-symbols-outlined">
+                            info
+                            </span>About</a></li>
+                        <!-- <li><a class="bar " href="contactus.html" target="se">
+                            <span class="material-symbols-outlined">
+                                contact_support
+                                </span>Contact us</a></li> -->
+                    </ul>
+                </div>
+                
         </div>
-        <div class="right" id="bar">
-            <ul class="navbar1">
-                <li><a class="bar " href="main.html" target="_self">Home</a></li>
-                <li><a class="bar " href="about.html" target="_self">About</a></li>
-                <li><a class="bar " href="contactus.html" target="se">Contact us</a></li>
+        
+            
+        </div>
+        <div class="bottom" id="bottom">
+            <ul class="navbar1phone">
+                <li><a class="bar active" href="main.html" target="_self">
+                    <span class="material-symbols-outlined">
+                    home
+                    </span>Home</a></li>
+                <li><a class="bar " href="about.html" target="_self">
+                    <span class="material-symbols-outlined">
+                    info
+                    </span>About</a></li>
+                <!-- <li><a class="bar " href="contactus.html" target="se">
+                    <span class="material-symbols-outlined">
+                        contact_support
+                        </span>Contact us</a></li> -->
             </ul>
         </div>
     </header>
-    <header>
+    <section class="section1">
+               
         <div class="loginbox">
             <img src="avtar.jpg" class="avtar">
             <h1>Join Us</h1>
@@ -34,10 +80,46 @@
             </form>
             <a href="datastored.html" target="_blank"><button class="btn">Submit</button></a>
 
+        </div> 
+    </section>
+
+    <footer class="socialmedia">
+        
+        <div class="flogo">
+            <img src="/GYMMILOGO.png" alt="">
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-        <script src="./mail.js"></script>
-    </header>
+        <div class="socialicon">
+            <div class="icon" id="facebook">
+                <!-- <div class="name">Facebook</div> -->
+                <a class="code" href="https://www.facebook.com/profile.php?id=100089030923869" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+            </div>
+            <div class="icon" id="instagram">
+                <!-- <div class="name">Instagram</div> -->
+                <a class="code" href="https://www.instagram.com/_gymmi/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <div class="icon" id="linkedin">
+                <!-- <div class="name">LinkedIn</div> -->
+                <a class="code" href="https://www.linkedin.com/company/gymmi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+
+            &#169 Copyright 2022-2023 by 52Technologies. All Rights Reserved.
+        </div>
+        <div class="tandd">
+            <span>
+            Terms&Conditions | 
+            </span>
+            <span>
+            Privacy Policy
+            </span>
+        </div>
+
+    </footer>
+
 </body>
+<script src="/script.js"></script>
 
 </html>
